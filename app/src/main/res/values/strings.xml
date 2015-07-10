@@ -13,10 +13,31 @@
          typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
     -->
     <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
 
-    <!-- Menu label to fetch updated weather info from the server -->
-    <string name="action_refresh" translatable="false">Refresh</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
 
+    <!-- Strings for location settings preference item -->
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_label" translatable="false">Location</string>
+    <string name="pref_location_default" translatable="false">41073</string>
+
+    <!-- Strings for teperature units settings preference item -->
+    <string name="pref_units_key">units</string>
+    <string name="pref_units_label">Pick Your Units</string>
+
+    <string-array name="pref_units_options">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="pref_units_optionsValues">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <!-- Share to string -->
+    <string name="send_to">Share text to...</string>
 </resources>
